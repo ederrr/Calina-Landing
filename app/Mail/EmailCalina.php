@@ -34,6 +34,6 @@ class EmailCalina extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.mail');
+        return $this->view('emails.mail')->subject('Proposta enviada');
     }
 }
