@@ -14,7 +14,3 @@
 Route::get('/', 'MailController@index');
 
 Route::post('/', 'MailController@sendEmail');
-
-Auth::routes();
-
-Route::get('/home', 'HomeController@index')->name('home');
